@@ -3,41 +3,38 @@ body,
 html {
     margin: 0;
     padding: 0;
-    height: 100;
-    /*background: #94DF3 !important;*/
+    height: 100%;
     background-image: linear-gradient(#94D4F3, #5564D6) !important;
 }
 
-/* Login Form */
-.login-container{
+.login-container {
     width: 400px;
     height: 350px;
     background: #FEFFFF !important;
     background-size: 100%;
     padding: 10px;
     position: absolute;
-
-    /*border-radius:10px;*/
     box-shadow: 2px 2px 2px rgba(255, 173, 78,0.5);
     top: 50%;
-        left: 50%;
-transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#icon{
+#icon {
     width: 150px;
 }
 
 .admin-icon{
     display: table;
-    margin: 0 auto;
+    margin: 0 auto; 
     border-radius: 50%;
     background-color: white;
 }
+
 .user-icon{
-        display: table;
-        margin: 0 auto;
-        margin-top: -80px;
+    display: table;
+    margin: 0 auto;
+    margin-top: -80px;
 }
 
 .admin-login-form{
@@ -65,7 +62,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 input[type=submit] {
     width: 100%;
-    background-color: #FFADFE;
     background-color:#5564D6;
     color: #FEFFFF;
     padding: 14px 20px;

@@ -1,4 +1,4 @@
-<?php 
-    header("location: mahasiswa");
+<?php
+    header("Location: mahasiswa");
     die();
 ?>

@@ -1,10 +1,10 @@
-<?php 
+<?php
     session_start();
     if(isset($_SESSION['salah']))
     {
-        echo '<script>alert("Username atau password yang dimasukan salah")</script>';
+        echo '<script>alert("Username atau Password yang dimasukan salah")</script>';
     }
-    //session
+    // session
     session_destroy();
 ?>
 
@@ -18,7 +18,7 @@
     <body>
         <div class="login-container">
             <div class="user-icon">
-                <img src="../assets/image/user.png.jpg" id="icon" alt="user Icon"/>
+                <img src="../assets/image/batu.png" id="icon" alt="User Icon"/>
             </div>
             <div class="login-form">
                 <form name="login" method="post" action="mahasiswa_validate.php">
@@ -26,15 +26,15 @@
                         <input type="text" name="nim" placeholder="NIM" required>
                     </div>
                     <div>
-                        <input type="password" name="password" placeholder="password" required>
+                        <input type="password" name="password" placeholder="Password" required>
                     </div>
-                    <div>
-                        <input type="submit" name="submit" value="LOGIN">
-                    </div>
-                </form>
-
+                        <div>
+                            <input type="submit" name="submit" value="LOGIN">
+                        </div>
+                    </form>
+                
             </div>
-
+        
         </div>
     </body>
 </html>
